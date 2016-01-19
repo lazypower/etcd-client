@@ -1,0 +1,215 @@
+{
+  "layers": [
+    "layer:basic", 
+    "etcd-client", 
+    "interface:etcd", 
+    "build"
+  ], 
+  "signatures": {
+    "hooks/stop": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "hooks/leader-settings-changed": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "hooks/hook.template": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "wheelhouse/pyaml-15.8.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "9c54fb5f17b58572c4cef50affea60bb73f445ab153580dac07a12383712b5b8"
+    ], 
+    "hooks/relations/etcd/interface.yaml": [
+      "interface:etcd", 
+      "static", 
+      "ba9f723b57a434f7efb2c06abec4167cd412c16da5f496a477dd7691e9a715be"
+    ], 
+    "hooks/db-relation-joined": [
+      "interface:etcd", 
+      "dynamic", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "hooks/leader-elected": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "wheelhouse/PyYAML-3.11.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "c36c938a872e5ff494938b33b14aaa156cb439ec67548fcab3535bb78b0846e8"
+    ], 
+    "Makefile": [
+      "layer:basic", 
+      "static", 
+      "f91213a68bc5edce9ebe0615b70cc908ea45466c2e205fb6cfe9c35d9c3fde4b"
+    ], 
+    "reactive/__init__.py": [
+      "layer:basic", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "wheelhouse/Jinja2-2.8.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "bc1ff2ff88dbfacefde4ddde471d1417d3b304e8df103a7a9437d47269201bf4"
+    ], 
+    "hooks/relations/etcd/peers.py": [
+      "interface:etcd", 
+      "static", 
+      "051ac9e82bd59fe3761c1ada6a6211a3f46ce715094c4d7285fa07607317e5c3"
+    ], 
+    "hooks/update-status": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "hooks/db-relation-broken": [
+      "interface:etcd", 
+      "dynamic", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "wheelhouse/charmhelpers-0.6.1.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "c41a4cb3dcf6aa35e115addf9fb83a94585a4ff3bddc63148983431af45905f8"
+    ], 
+    "hooks/relations/etcd/__init__.py": [
+      "interface:etcd", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/upgrade-charm": [
+      "layer:basic", 
+      "static", 
+      "b78e405476402d34624c70822d9a60be2f4f85255765f619c0ecfe18f5f934ea"
+    ], 
+    "wheelhouse/charms.reactive-0.3.8.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "3f8722d85f7d489f8414d11fc2a3e8793c68000f7a1bc7b1ad71120e037aebee"
+    ], 
+    "wheelhouse/Tempita-0.5.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c"
+    ], 
+    ".build.manifest": [
+      "build", 
+      "dynamic", 
+      "unchecked"
+    ], 
+    "README.md": [
+      "layer:basic", 
+      "static", 
+      "5d5101eb0f2eb90eb0959438416ceb5e9b82c7746a385eb64ccb8a8ffe01e92b"
+    ], 
+    "hooks/relations/etcd/README.md": [
+      "interface:etcd", 
+      "static", 
+      "0771e95a4999f29e8996f636b6019ef402d4daa5fce85db7aa7389884de55cea"
+    ], 
+    "tox.ini": [
+      "layer:basic", 
+      "static", 
+      "5efb9280763f1f4cb861485e80863caafc9cd5ab1176543e911c27519436de7a"
+    ], 
+    "metadata.yaml": [
+      "etcd-client", 
+      "dynamic", 
+      "5a3eb9ee80fd025549872cf1e3a60365ef779aa39fc605568888a26b86245a4b"
+    ], 
+    "copyright": [
+      "layer:basic", 
+      "static", 
+      "1e2afbd75c71affa132ae7ee3327cb29b5e4b9d9705f27dfd03857c326f50c5c"
+    ], 
+    "hooks/start": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "wheelhouse/netaddr-0.7.18.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "a1f5c9fcf75ac2579b9995c843dade33009543c04f218ff7c007b3c81695bd19"
+    ], 
+    "hooks/db-relation-changed": [
+      "interface:etcd", 
+      "dynamic", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    ".gitignore": [
+      "layer:basic", 
+      "static", 
+      "0da5c4dcda27cd6406e5bb81cbf68ddccaf728ac764ec15053a165c1449d87d9"
+    ], 
+    "wheelhouse/six-1.10.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a"
+    ], 
+    "hooks/install": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "wheelhouse/MarkupSafe-0.23.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3"
+    ], 
+    "hooks/relations/etcd/provides.py": [
+      "interface:etcd", 
+      "static", 
+      "2a8cf690cbcff9acb8f54908b2b3a8f2ed980d72428c5c2878f71bded6b0ecaa"
+    ], 
+    "layer.yaml": [
+      "etcd-client", 
+      "dynamic", 
+      "4dde33727fbca0a0ce89fb8532a01ba08a856bd9ce5afde9c6610c0cc17b2545"
+    ], 
+    "hooks/relations/etcd/requires.py": [
+      "interface:etcd", 
+      "static", 
+      "6aaccacc81ec324433af8e5b166720e2521b7bbd57d300e68a5e5186d2bda526"
+    ], 
+    "wheelhouse/pip-7.1.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "ca047986f0528cfa975a14fb9f7f106271d4e0c3fe1ddced6c1db2e7ae57a477"
+    ], 
+    "hooks/db-relation-departed": [
+      "interface:etcd", 
+      "dynamic", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ], 
+    "lib/charms/bootstrap.py": [
+      "layer:basic", 
+      "static", 
+      "bec7997003dbe44e9bbe85f0df598746c868fe72d1971a99d357bf3512453c70"
+    ], 
+    "lib/charms/layer.py": [
+      "layer:basic", 
+      "static", 
+      "3accb93272464875583f9b661dc024b4adc67617354bc21d8a7f74284ae4deb4"
+    ], 
+    "requirements.txt": [
+      "layer:basic", 
+      "static", 
+      "0f1c70d27e26005a96d66ad54482877ae20f7737693c833e29dd72bd6ac24892"
+    ], 
+    "hooks/config-changed": [
+      "layer:basic", 
+      "static", 
+      "21759be2af2e65c9e29531b293fd77fc1c710468ece35bc1cb4360cdefd997b0"
+    ]
+  }
+}

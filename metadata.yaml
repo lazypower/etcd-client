@@ -1,0 +1,13 @@
+name: etcd-client
+summary: ETCD charm layer
+description: |
+  A minimalist layer to deliver ETCD as a service
+tags:
+- database
+- layer
+requires:
+  db:
+    interface: etcd
+maintainers:
+- Charles Butler <charles.butler@canonical.com>
+subordinate: false
